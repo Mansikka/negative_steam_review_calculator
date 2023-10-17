@@ -1,2 +1,2 @@
-reviews_1716740.json
-./venv/*
+*.json
+venv/*
