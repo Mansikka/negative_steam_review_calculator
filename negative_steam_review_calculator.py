@@ -88,7 +88,7 @@ for review in reviews:
 
 
 average_playtime_after_negative = float(total_playtime_after_negative) / negative_reviews
-
+average_playtime = float(average_playtime) / negative_reviews
 
 print('Negative reviews with playtime after view:', negative_reviews_with_playtime, '/', negative_reviews,  f'= {percentage(negative_reviews_with_playtime, negative_reviews)}%')
 print('Total playtime after review:', to_hours(total_playtime_after_negative), 'hours')
